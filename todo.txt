@@ -1,5 +1,5 @@
 TODO:
-    1. Finish creating the basic structure for the site pages.
-    2. Finish creating the layout  for the site pages.
-    3. Create the site pages.
+    1. Finish creating the basic structure for the site pages. ( DONE, as of rigth now the I am fine with the structure.)
+    2. Finish creating the layout for the site pages.
+    3. Create the site pages. (DONE, added three new site pages)
  
