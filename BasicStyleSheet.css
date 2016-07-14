@@ -1,18 +1,51 @@
 body{
+    margin: 0pt;
+    text-align: center;
     
 }
 
 header{
-    
+    margin: 0pt;
 }
 
 header.horizontalHeader{
+    background-color: black;
+    color: grey;
     border-bottom-color: green;
     border-bottom-style: solid;
     border-bottom-width: thick;
+    
 }
 
 footer{
+   background-color: black;
+   color: grey; 
+   
+}
+
+footer div{
+    display: inline-block;
+    margin: 0pt 15pt;
+    padding: 0pt 15pt;
+    vertical-align: top;
+    background-color: black;
+    color: grey;
+}
+
+article{
+    display: inline;
+    
+}
+
+section{
+    display: inline-block;
+    width: 75%;
+}
+
+section.centeredContainer{
+    margin: 0 auto; 
+    text-align: center;
+    width: 80%;
     
 }
 
@@ -35,6 +68,12 @@ nav{
     
 }
 
+aside{
+    display: inline-block;
+    width: 35%;
+}
+
+
 ul{
     
 }
@@ -44,6 +83,14 @@ ul.navList{
     margin: 0pt;
     padding: 0pt;
     overflow: hidden;
+}
+
+ul.navList a{
+    color: grey;
+}
+
+ul.navList a:visited{
+   color: darkblue;
 }
 
 li{
@@ -62,5 +109,5 @@ h1.SiteID{
 
 h1.SiteID a{
     text-decoration: none;
-    color: black;
+    color: grey;
 }
