@@ -1,6 +1,7 @@
 body{
     margin: 0pt;
     text-align: center;
+    background-color: #8C8C8C;
     
 }
 
@@ -15,6 +16,12 @@ header.horizontalHeader{
     border-bottom-style: solid;
     border-bottom-width: thick;
     
+}
+
+header.Banner{
+    margin: 0pt 0pt 0pt 0pt;
+    width: auto;
+
 }
 
 footer{
@@ -89,8 +96,12 @@ ul.navList a{
     color: grey;
 }
 
-ul.navList a:visited{
-   color: darkblue;
+ul.navList a:visited {
+   color: red;
+}
+
+ul.navList a:hover{
+    color: blue;
 }
 
 li{
@@ -111,3 +122,4 @@ h1.SiteID a{
     text-decoration: none;
     color: grey;
 }
+
