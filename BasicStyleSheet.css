@@ -1,8 +1,47 @@
+article{
+    display: inline;
+    
+}
+
+aside{
+    display: inline-block;
+    width: 35%;
+}
+
 body{
     margin: 0pt;
     text-align: center;
     background-color: #8C8C8C;
     
+}
+
+div{
+    display: inline-block;
+    margin: 0pt;
+    padding: 0pt;
+    vertical-align: top;
+}
+
+div.navContainer{
+   display: inline-block;
+   vertical-align: top;
+   text-align: center;
+   
+}
+
+footer{
+   background-color: black;
+   color: grey; 
+   
+}
+
+footer div{
+    display: inline-block;
+    margin: 0pt 15pt;
+    padding: 0pt 15pt;
+    vertical-align: top;
+    background-color: black;
+    color: grey;
 }
 
 header{
@@ -24,62 +63,25 @@ header.Banner{
 
 }
 
-footer{
-   background-color: black;
-   color: grey; 
-   
+h1.SiteID{
+    margin: 0pt;
 }
 
-footer div{
-    display: inline-block;
-    margin: 0pt 15pt;
-    padding: 0pt 15pt;
-    vertical-align: top;
-    background-color: black;
+h1.SiteID a{
+    text-decoration: none;
     color: grey;
 }
 
-article{
-    display: inline;
+li{
     
 }
 
-section{
-    display: inline-block;
-    width: 75%;
-}
 
-section.centeredContainer{
-    margin: 0 auto; 
-    text-align: center;
-    width: 80%;
-    
-}
-
-div{
-    display: inline-block;
-    margin: 0pt;
-    padding: 0pt;
-    vertical-align: top;
-}
-
-div.navContainer{
-   display: inline-block;
-   vertical-align: top;
-   text-align: center;
-   
-}
 
 nav{
     
     
 }
-
-aside{
-    display: inline-block;
-    width: 35%;
-}
-
 
 ul{
     
@@ -96,30 +98,35 @@ ul.navList a{
     color: grey;
 }
 
-ul.navList a:visited {
-   color: red;
-}
-
 ul.navList a:hover{
     color: blue;
 }
 
-li{
-    
+ul.navList a:visited {
+   color: red;
 }
 
-li.navElement{
+
+section{
+    display: inline-block;
+    width: 75%;
+}
+
+/*************************/
+/** CSS General Classes **/
+/*************************/
+.centeredContainer{
+    margin: 0 auto; 
+    text-align: center;
+    width: 80%;    
+}
+
+.navElement{
     display: inline-block;
     margin: 10pt;
     padding: 0pt 25pt;
 }
 
-h1.SiteID{
-    margin: 0pt;
+.navElement-Footer{
+    
 }
-
-h1.SiteID a{
-    text-decoration: none;
-    color: grey;
-}
-
